@@ -1,0 +1,123 @@
+/* community-header.css */
+
+body{
+    background-color: #333;
+}
+.community-header {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: silver;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;  
+  }
+  
+  .title-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .title-bar img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .title-bar h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .data-bar {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .data-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .data-bar li {
+    margin-right: 20px;
+  }
+  
+  .data-bar.value {
+    font-weight: bold;
+    color: #337ab7;
+  }
+  
+  .post-of-the-day {
+    padding: 20px;
+    background-image:url(fundo\ preto.jpg);
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .post-content {
+    padding: 10px;
+  }
+  
+  .post-actions {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .post-actions button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #337ab7;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .post-actions button:hover {
+    background-color: #23527c;
+  }
+  
+  .post-list {
+    padding: 20px;
+  }
+  
+  .navigation {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navigation button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #337ab7;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .navigation button:hover {
+    background-color: #23527c;
+
+  }
+  
+  h2, h3{
+    color: #fff;
+  }
+ 
+  footer{
+    color: #fff;
+
+  }
