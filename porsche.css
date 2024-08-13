@@ -1,0 +1,128 @@
+/* Reset de estilos */
+body, h1, p, ul, ol, li, a, img, section, div, header, nav, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Estilos para elementos */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(45deg, #ffffff, #cccccc, #00aaff);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    color: 0;
+    display: inline;
+    margin-right: 10px;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    color: yellow
+}
+
+h1 {
+    color: #c1c1c1;
+    font-size: 60px;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+}
+
+p {
+    color: white;
+}
+
+li a {
+    color: black;
+    font-size: large;
+}
+
+article img {
+    padding: left;
+    width: 100%;
+}
+
+article strong p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+article strong h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer p {
+    color: black;
+}
+
+/* Mídia queries para tornar a página responsiva */
+@media screen and (max-width: 556px) {
+    article img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 557px) and (max-width: 756px) {
+    article img {
+        width: calc(100% / 3);
+    }
+}
+
+@media screen and (min-width: 757px) {
+    article img {
+        width: calc(100% / 4);
+    }
+}
+
+/* Aumentar a imagem ao clicar */
+img:hover {
+    cursor: pointer;
+}
+
+img:active {
+    width: 45vw; /* Modo paisagem */
+}
+
+@media screen and (max-width: 556px) {
+    img:active {
+        width: 85vw; /* Modo retrato */
+    }
+}
